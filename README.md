@@ -1,5 +1,5 @@
 # ZFS-Root-Mirror
-**Installation on Ubuntu 24.24**
+**Installation on Ubuntu 24.04**
 This adds a mirror to an existing Ubuntu ZFS boot drive
 
 ## HOW
