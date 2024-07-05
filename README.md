@@ -42,6 +42,21 @@ The first disk will have three / four partitions, (Four , if you have swap memmo
       sudo sgdisk -p $DISK1
 ![VirtualBox_ubuntu_05_07_2024_11_36_44](https://github.com/kashinathshabu/ZFS-Root-Mirror/assets/67222565/b6b096e7-7232-4d60-bd8e-e5a9ce823e88)
 
+If three:
+```
+BIOS-Boot or EFI
+boot
+root
+```
+
+If four:
+```
+BIOS-Boot or EFI
+swap
+boot
+root
+```
+
 + Copy partition table from disk 1 to disk 2: 
 
       sudo sgdisk -R$DISK2 $DISK1
