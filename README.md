@@ -44,14 +44,14 @@ The first disk will have three / four partitions, (Four , if you have swap memmo
 
 If three:
 ```
-BIOS-Boot or EFI
+EFI
 boot
 root
 ```
 
 If four:
 ```
-BIOS-Boot or EFI
+EFI
 swap
 boot
 root
